@@ -11,13 +11,15 @@ public class Customer
     public int Customer_ID {get;}
 
     //This is the Customer Name
-    private string Customer_Name {get; set;}
+    public string Customer_Name {get; set;}
 
     //This is the Customer Email
-    private string Customer_Email {get; set;}
+    public string Customer_Email {get; set;}
 
     //This is the Customer's Phone Number
-    private string Customer_PhoneNum {get; set;}
+    public string Customer_PhoneNumber {get; set;}
+
+    public List <Customer> customerList{get; set;}
 
     
     //This is a constructor and will be able to be accessed from the main method or another class, and it will keep on generating an ID different from each customer
@@ -25,7 +27,8 @@ public class Customer
     {
         autoIncrement++;
         Customer_ID = autoIncrement;
+        customerList = new List<Customer>();
     }
-    
+
     
 }
