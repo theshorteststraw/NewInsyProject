@@ -6,7 +6,7 @@ public class RentalTransaction
 
     public Customer Customer { get; set; }
 
-    public Vehicle vehicle { get; set; }
+    public Vehicle Vehicle { get; set; }
 
     public DateTime StartDate { get; set; }
 
