@@ -19,6 +19,7 @@ public class Customer
     //This is the Customer's Phone Number
     public string Customer_PhoneNumber {get; set;}
 
+    //This is a list where customer info will be stored at.
     public List <Customer> customerList{get; set;}
 
     
