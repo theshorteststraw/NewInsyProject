@@ -1,5 +1,3 @@
-﻿using System.Dynamic;
-
 namespace NewInsyProject;
 
 public class Customer
